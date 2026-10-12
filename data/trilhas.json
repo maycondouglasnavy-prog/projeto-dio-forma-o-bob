@@ -1,0 +1,403 @@
+{
+  "trilhas": [
+    {
+      "id": "python",
+      "tecnologia": "Python",
+      "descricao": "Trilha completa de desenvolvimento com Python, desde fundamentos até aplicações avançadas.",
+      "icone": "🐍",
+      "niveis": [
+        {
+          "nivel": "Iniciante",
+          "descricao": "Fundamentos da linguagem Python para quem está começando.",
+          "tempo_estimado_horas": 40,
+          "modulos": [
+            {
+              "id": "py-ini-01",
+              "titulo": "Introdução ao Python",
+              "descricao": "Instalação do ambiente, sintaxe básica, variáveis e tipos de dados.",
+              "duracao_horas": 8
+            },
+            {
+              "id": "py-ini-02",
+              "titulo": "Estruturas de Controle",
+              "descricao": "Condicionais (if/elif/else), laços (for/while) e funções.",
+              "duracao_horas": 10
+            },
+            {
+              "id": "py-ini-03",
+              "titulo": "Coleções e Estruturas de Dados",
+              "descricao": "Listas, tuplas, dicionários e conjuntos.",
+              "duracao_horas": 10
+            },
+            {
+              "id": "py-ini-04",
+              "titulo": "Manipulação de Arquivos",
+              "descricao": "Leitura e escrita de arquivos CSV, JSON e TXT.",
+              "duracao_horas": 12
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Gerador de Relatório de Vendas",
+            "descricao": "Crie um script Python que leia um arquivo CSV de vendas, calcule totais por categoria e gere um relatório em TXT com os resultados.",
+            "criterios": [
+              "Leitura correta do arquivo CSV",
+              "Cálculo correto dos totais",
+              "Escrita do relatório em TXT",
+              "Tratamento básico de erros"
+            ]
+          }
+        },
+        {
+          "nivel": "Intermediário",
+          "descricao": "Programação orientada a objetos, bibliotecas populares e boas práticas.",
+          "tempo_estimado_horas": 60,
+          "modulos": [
+            {
+              "id": "py-int-01",
+              "titulo": "Programação Orientada a Objetos",
+              "descricao": "Classes, herança, encapsulamento e polimorfismo em Python.",
+              "duracao_horas": 15
+            },
+            {
+              "id": "py-int-02",
+              "titulo": "Tratamento de Exceções e Testes",
+              "descricao": "try/except, pytest e escrita de testes unitários.",
+              "duracao_horas": 12
+            },
+            {
+              "id": "py-int-03",
+              "titulo": "APIs REST com FastAPI",
+              "descricao": "Construção de APIs RESTful usando FastAPI, Pydantic e Uvicorn.",
+              "duracao_horas": 18
+            },
+            {
+              "id": "py-int-04",
+              "titulo": "Banco de Dados com SQLAlchemy",
+              "descricao": "ORM SQLAlchemy, modelos, migrações com Alembic e consultas.",
+              "duracao_horas": 15
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "API de Gerenciamento de Tarefas",
+            "descricao": "Desenvolva uma API REST com FastAPI e SQLAlchemy para gerenciar tarefas (CRUD completo), incluindo autenticação JWT e testes com pytest.",
+            "criterios": [
+              "Endpoints CRUD funcionais",
+              "Autenticação JWT implementada",
+              "Cobertura de testes acima de 80%",
+              "Documentação via Swagger UI"
+            ]
+          }
+        },
+        {
+          "nivel": "Avançado",
+          "descricao": "Concorrência, otimização de performance, arquiteturas modernas e Python para dados.",
+          "tempo_estimado_horas": 80,
+          "modulos": [
+            {
+              "id": "py-av-01",
+              "titulo": "Concorrência e Paralelismo",
+              "descricao": "asyncio, threading, multiprocessing e padrões de concorrência.",
+              "duracao_horas": 20
+            },
+            {
+              "id": "py-av-02",
+              "titulo": "Python para Ciência de Dados",
+              "descricao": "NumPy, Pandas, Matplotlib e Scikit-learn para análise e ML.",
+              "duracao_horas": 25
+            },
+            {
+              "id": "py-av-03",
+              "titulo": "Microserviços e Mensageria",
+              "descricao": "Arquitetura de microserviços, RabbitMQ, Kafka e Docker.",
+              "duracao_horas": 20
+            },
+            {
+              "id": "py-av-04",
+              "titulo": "Otimização e Profiling",
+              "descricao": "Profiling com cProfile, otimização com Cython e uso de C extensions.",
+              "duracao_horas": 15
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Pipeline de Dados Assíncrono",
+            "descricao": "Implemente um pipeline de ingestão e processamento de dados em tempo real usando asyncio e Kafka, com análise estatística via Pandas e visualização dos resultados.",
+            "criterios": [
+              "Consumo assíncrono de mensagens do Kafka",
+              "Processamento e transformação dos dados com Pandas",
+              "Persistência em banco de dados",
+              "Dashboard de monitoramento do pipeline"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "aws-cloud",
+      "tecnologia": "AWS / Cloud",
+      "descricao": "Trilha de computação em nuvem com foco em Amazon Web Services, desde infraestrutura até arquiteturas serverless.",
+      "icone": "☁️",
+      "niveis": [
+        {
+          "nivel": "Iniciante",
+          "descricao": "Conceitos fundamentais de cloud computing e primeiros serviços AWS.",
+          "tempo_estimado_horas": 45,
+          "modulos": [
+            {
+              "id": "aws-ini-01",
+              "titulo": "Fundamentos de Cloud Computing",
+              "descricao": "Modelos IaaS, PaaS, SaaS, regiões, zonas de disponibilidade e modelo de responsabilidade compartilhada.",
+              "duracao_horas": 8
+            },
+            {
+              "id": "aws-ini-02",
+              "titulo": "Compute: EC2 e Elastic Beanstalk",
+              "descricao": "Tipos de instância, AMIs, grupos de segurança e deploy de aplicações.",
+              "duracao_horas": 12
+            },
+            {
+              "id": "aws-ini-03",
+              "titulo": "Storage: S3 e EBS",
+              "descricao": "Buckets S3, políticas de acesso, ciclo de vida de objetos e volumes EBS.",
+              "duracao_horas": 10
+            },
+            {
+              "id": "aws-ini-04",
+              "titulo": "Redes: VPC, Subnets e Route Tables",
+              "descricao": "Criação de VPC, subnets públicas/privadas, Internet Gateway e NAT Gateway.",
+              "duracao_horas": 15
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Hospedagem de Site Estático com S3 e CloudFront",
+            "descricao": "Crie um bucket S3 configurado para hospedagem estática de um portfólio pessoal e distribua via CloudFront com domínio personalizado.",
+            "criterios": [
+              "Bucket S3 com hospedagem estática habilitada",
+              "Distribuição CloudFront configurada",
+              "HTTPS ativo via ACM",
+              "Política de bucket correta para acesso público"
+            ]
+          }
+        },
+        {
+          "nivel": "Intermediário",
+          "descricao": "Serviços gerenciados, bancos de dados na nuvem, IAM avançado e infraestrutura como código.",
+          "tempo_estimado_horas": 65,
+          "modulos": [
+            {
+              "id": "aws-int-01",
+              "titulo": "IAM Avançado e Segurança",
+              "descricao": "Roles, policies, MFA, AWS Organizations e controles de segurança.",
+              "duracao_horas": 15
+            },
+            {
+              "id": "aws-int-02",
+              "titulo": "Bancos de Dados Gerenciados: RDS e DynamoDB",
+              "descricao": "Criação de instâncias RDS, backups automáticos, DynamoDB e padrões NoSQL.",
+              "duracao_horas": 18
+            },
+            {
+              "id": "aws-int-03",
+              "titulo": "Infraestrutura como Código com Terraform",
+              "descricao": "Provisionamento de recursos AWS com Terraform, módulos e state remoto.",
+              "duracao_horas": 20
+            },
+            {
+              "id": "aws-int-04",
+              "titulo": "CI/CD com CodePipeline e GitHub Actions",
+              "descricao": "Pipelines de entrega contínua, CodeBuild, CodeDeploy e integração com GitHub.",
+              "duracao_horas": 12
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Infraestrutura Multi-Tier com Terraform",
+            "descricao": "Provisione com Terraform uma arquitetura de 3 camadas (web, aplicação, banco de dados) na AWS, incluindo VPC, grupos de auto scaling e RDS Multi-AZ.",
+            "criterios": [
+              "Código Terraform modular e reutilizável",
+              "Arquitetura Multi-AZ para alta disponibilidade",
+              "State remoto no S3 com locking via DynamoDB",
+              "Pipeline CI/CD para aplicar as mudanças"
+            ]
+          }
+        },
+        {
+          "nivel": "Avançado",
+          "descricao": "Arquiteturas serverless, microsserviços gerenciados, observabilidade e Well-Architected Framework.",
+          "tempo_estimado_horas": 85,
+          "modulos": [
+            {
+              "id": "aws-av-01",
+              "titulo": "Serverless com Lambda, API Gateway e SQS",
+              "descricao": "Funções Lambda, triggers, API Gateway REST/HTTP, SQS e SNS para event-driven.",
+              "duracao_horas": 22
+            },
+            {
+              "id": "aws-av-02",
+              "titulo": "Containers: ECS, EKS e Fargate",
+              "descricao": "Orquestração de containers com ECS Fargate e Kubernetes gerenciado com EKS.",
+              "duracao_horas": 25
+            },
+            {
+              "id": "aws-av-03",
+              "titulo": "Observabilidade: CloudWatch, X-Ray e OpenTelemetry",
+              "descricao": "Métricas, logs, traces distribuídos, dashboards e alarmes automatizados.",
+              "duracao_horas": 18
+            },
+            {
+              "id": "aws-av-04",
+              "titulo": "Well-Architected Framework e FinOps",
+              "descricao": "Os 6 pilares do WAF, revisões de arquitetura, otimização de custos e AWS Cost Explorer.",
+              "duracao_horas": 20
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Plataforma Event-Driven Serverless",
+            "descricao": "Construa uma plataforma de processamento de eventos serverless usando Lambda, SQS, DynamoDB Streams e Step Functions, com observabilidade completa via CloudWatch e X-Ray.",
+            "criterios": [
+              "Arquitetura event-driven com SQS e Lambda",
+              "Orquestração de fluxos com Step Functions",
+              "Observabilidade com tracing via X-Ray",
+              "Custo estimado documentado e otimizado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "powerbi",
+      "tecnologia": "Power BI",
+      "descricao": "Trilha de Business Intelligence e análise de dados com Microsoft Power BI, do básico à modelagem avançada.",
+      "icone": "📊",
+      "niveis": [
+        {
+          "nivel": "Iniciante",
+          "descricao": "Primeiros passos no Power BI Desktop, conexão de dados e criação de visuais básicos.",
+          "tempo_estimado_horas": 35,
+          "modulos": [
+            {
+              "id": "pbi-ini-01",
+              "titulo": "Introdução ao Power BI Desktop",
+              "descricao": "Interface, instalação, importação de dados de Excel e CSV e primeiros relatórios.",
+              "duracao_horas": 8
+            },
+            {
+              "id": "pbi-ini-02",
+              "titulo": "Power Query: Transformação de Dados",
+              "descricao": "Editor do Power Query, limpeza, mesclagem e acréscimo de consultas.",
+              "duracao_horas": 10
+            },
+            {
+              "id": "pbi-ini-03",
+              "titulo": "Visualizações Essenciais",
+              "descricao": "Gráficos de barras, linhas, pizza, mapas e cartões KPI.",
+              "duracao_horas": 8
+            },
+            {
+              "id": "pbi-ini-04",
+              "titulo": "Publicação e Power BI Service",
+              "descricao": "Publicação no Power BI Service, workspaces, dashboards e compartilhamento.",
+              "duracao_horas": 9
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Dashboard de Vendas Regional",
+            "descricao": "Com um dataset de vendas fornecido em Excel, crie um relatório no Power BI Desktop com filtros por região e período, indicadores de meta e público no Power BI Service.",
+            "criterios": [
+              "Pelo menos 4 visuais distintos",
+              "Filtros de data e região funcionais",
+              "KPIs de faturamento e meta visíveis",
+              "Relatório publicado no Power BI Service"
+            ]
+          }
+        },
+        {
+          "nivel": "Intermediário",
+          "descricao": "Modelagem de dados, linguagem DAX e relatórios interativos avançados.",
+          "tempo_estimado_horas": 55,
+          "modulos": [
+            {
+              "id": "pbi-int-01",
+              "titulo": "Modelagem de Dados e Relacionamentos",
+              "descricao": "Esquemas estrela e floco de neve, cardinalidade, direção de filtro e tabelas de datas.",
+              "duracao_horas": 14
+            },
+            {
+              "id": "pbi-int-02",
+              "titulo": "DAX Essencial",
+              "descricao": "Medidas, colunas calculadas, funções de agregação, CALCULATE e contexto de filtro.",
+              "duracao_horas": 18
+            },
+            {
+              "id": "pbi-int-03",
+              "titulo": "Recursos Avançados de Relatório",
+              "descricao": "Drill-through, bookmarks, tooltips customizados, botões de navegação e RLS.",
+              "duracao_horas": 12
+            },
+            {
+              "id": "pbi-int-04",
+              "titulo": "Integração com Azure e SQL Server",
+              "descricao": "DirectQuery, Import Mode, conexão com Azure SQL, Synapse Analytics e atualização agendada.",
+              "duracao_horas": 11
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Análise de Churn com DAX Avançado",
+            "descricao": "Construa um relatório de análise de churn de clientes usando DAX para calcular taxas de retenção, LTV e segmentação RFM, com navegação por bookmarks e RLS por gerente.",
+            "criterios": [
+              "Modelagem em esquema estrela correta",
+              "Medidas DAX de churn, retenção e LTV",
+              "RLS configurado por perfil de usuário",
+              "Navegação por bookmarks implementada"
+            ]
+          }
+        },
+        {
+          "nivel": "Avançado",
+          "descricao": "DAX avançado, Power BI Embedded, administração de tenant e integração com ecossistema de dados.",
+          "tempo_estimado_horas": 75,
+          "modulos": [
+            {
+              "id": "pbi-av-01",
+              "titulo": "DAX Avançado e Otimização de Performance",
+              "descricao": "RANKX, TOPN, funções de inteligência de tempo, Tabular Editor e Vertipaq Analyzer.",
+              "duracao_horas": 22
+            },
+            {
+              "id": "pbi-av-02",
+              "titulo": "Power BI Embedded e API REST",
+              "descricao": "Incorporação de relatórios em aplicações web, Power BI REST API e tokens de embed.",
+              "duracao_horas": 20
+            },
+            {
+              "id": "pbi-av-03",
+              "titulo": "Administração e Governança do Tenant",
+              "descricao": "Portal de administração, políticas de dados, auditoria, linhagem de dados e sensitivity labels.",
+              "duracao_horas": 15
+            },
+            {
+              "id": "pbi-av-04",
+              "titulo": "Integração com Fabric e Dataflows Gen2",
+              "descricao": "Microsoft Fabric, lakehouse, dataflows de segunda geração e pipelines de dados.",
+              "duracao_horas": 18
+            }
+          ],
+          "desafio_pratico": {
+            "titulo": "Solução BI Embarcada com Power BI Embedded",
+            "descricao": "Desenvolva uma aplicação web (Python/Flask) que incorpore relatórios Power BI via API REST, com controle de acesso por perfil de usuário, métricas de uso via API de auditoria e deploy na Azure.",
+            "criterios": [
+              "Relatório incorporado funcionando na aplicação web",
+              "Autenticação via Azure AD (service principal)",
+              "Filtragem dinâmica de dados por usuário logado",
+              "Coleta de métricas de acesso via API de auditoria"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "versao": "1.0.0",
+    "criado_em": "2025-01-01",
+    "total_trilhas": 3,
+    "tecnologias": ["Python", "AWS / Cloud", "Power BI"]
+  }
+}
