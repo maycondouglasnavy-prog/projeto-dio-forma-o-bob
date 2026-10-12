@@ -1,24 +1,18 @@
-# 🌍 Geo-Explorer: Plataforma de Exploração de Trilhas de Aprendizagem
+# Geo-Explorer
 
-O **Geo-Explorer** é um projeto desenvolvido como desafio prático para consolidar habilidades em programação, automação, estruturação de dados, testes automatizados e integração de ferramentas através de um Servidor MCP. A aplicação permite consultar trilhas de estudo, gerar desafios de código personalizados por nível e emitir certificados fictícios de conclusão.
+## 🚀 Resumo da Entrega
 
----
+O **Geo-Explorer** é uma aplicação voltada para o gerenciamento e exploração de dados geográficos e trilhas de estudo, integrando automação em Python e ferramentas de Inteligência Artificial via Model Context Protocol (MCP).
 
-## 🚀 Funcionalidades Principais
+### 📂 Estrutura de Diretórios
+- `commands/`: Scripts executáveis principais (`trilha.py` e `desafio.py`) para processamento de dados e geração de desafios.
+- `data/`: Armazenamento de arquivos estruturados em formato JSON (ex: `trilhas.json`).
+- `mcp_server/`: Implementação do servidor base MCP (`server.py`) para comunicação padronizada.
+- `tests/`: Suíte de testes unitários validados via `pytest`.
 
-1. **Consulta de Trilhas (`trilha`)**: Exibe planos de estudo estruturados conforme a tecnologia e os objetivos escolhidos.
-2. **Geração de Desafios (`desafio`)**: Cria desafios de código dinâmicos baseados na tecnologia e no nível de dificuldade informado (Iniciante, Intermediário, Avançado).
-3. **Emissão de Certificados (`certificado`)**: Gera um certificado de conclusão personalizado e fictício para trilhas finalizadas.
-4. **Servidor MCP**: Disponibiliza os recursos do Geo-Explorer para integração com outras ferramentas e assistentes inteligentes.
+### 🧪 Qualidade e Testes
+- Ambiente virtual Python (`.venv`) configurado e validado.
+- Testes unitários executados com sucesso utilizando o framework `pytest`.
 
----
-
-## 📂 Estrutura do Projeto
-
-```text
-geo-explorer/
-├── data/           # Base de dados de trilhas e conteúdos
-├── commands/       # Lógica dos comandos (trilha, desafio, certificado)
-├── mcp_server/     # Implementação do Servidor MCP
-├── tests/          # Testes automatizados da aplicação
-└── README.md       # Documentação do projeto
+### 📦 Versionamento
+- Código-fonte versionado e sincronizado na branch `main` do repositório no GitHub.
